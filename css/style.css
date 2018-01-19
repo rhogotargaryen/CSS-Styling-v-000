@@ -57,3 +57,11 @@ figcaption {
   color:black;
   text-decoration: none;
 }
+#details a:hove {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color:red;
+}
