@@ -1,0 +1,16 @@
+/* Commenting */
+
+/* CSS syntax
+selectors {
+  property: value;
+  property2: value2;
+}
+
+type selectors: p | a | sectopm
+  selects types of elements
+*/
+
+p {
+  font-size:1em;
+  line-height: 1.5;
+}
