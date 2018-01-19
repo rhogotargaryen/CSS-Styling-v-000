@@ -24,19 +24,29 @@ p {
   line-height: 1.5em;
   font-family: Georgia, "New Times Roman", serif;
 } */
-
+/* type selector*/
 figcaption {
   font: normal 0.75em/1.5em "Elsie Swash Caps", cursive;
   color: #777;
   text-align: right;
 }
-
+/*class selector */
 .milk-text {
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
 }
-
+/* id selector */
 #logo {
   background: aqua;
 }
+
+/* descendant selector */
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+  }
+
+#logo h1 {
+  font-family: 'Elsie Swash Caps', cursive;
+  }
